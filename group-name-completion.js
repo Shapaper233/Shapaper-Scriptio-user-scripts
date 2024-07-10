@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         Group name completion
+// @name         Group Name Completion
 // @description  给群名称补全各种信息：备注 + 昵称 + QQ 号，需要 hook-vue.js 的支持
 // @run-at       main, chat
 // @reactive     true
@@ -9,6 +9,7 @@
 // ==/UserScript==
 (function () {
     let enabled = false;
+    const log = console.log.bind(console, "[Group Name Completion]");
     function process(component) {
         const el = component?.vnode?.el;
         if (!el || !(el instanceof Element)) {
@@ -31,7 +32,7 @@
     function enable() {
         if (enabled) return;
         window.__VUE_MOUNT__.push(process);
-        console.log("群名称补全已开启");
+        log("群名称补全已开启");
         enabled = true;
     }
     function disable() {
@@ -39,7 +40,7 @@
         const index = window.__VUE_MOUNT__.indexOf(process);
         if (index > -1) {
             window.__VUE_MOUNT__.splice(index, 1);
-            console.log("群名称补全已关闭");
+            log("群名称补全已关闭");
         }
         enabled = false;
     }
