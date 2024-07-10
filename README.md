@@ -15,5 +15,7 @@
 ## [Automatic-voice-to-text-conversion](./automatic-voice-to-text-conversion.js)
 
 语音自动转文字！
+
 再也不需要手动右键转文字了！
+
 Tip：使用前先装LLAPI，虽然已经提取部分方法，仍然有些方法需要插件支持，_其实是我不太会JS_。应该与大部分插件不冲突！
