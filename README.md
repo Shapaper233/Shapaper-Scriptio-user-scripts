@@ -8,7 +8,9 @@
 
 再也不需要手动右键转文字了！
 
-当前版本无需LLAPI即可运行，需要Scriptio 1.3.4+
+当前版本无需LLAPI即可运行，**需要Scriptio 1.3.4+**
+
+_Help:当前版本展开语音消息是通过css参数，会导致收回按钮无效，急需大佬帮助😚_
 
 ## [Group-name-completion](./group-name-completion.js)
 
