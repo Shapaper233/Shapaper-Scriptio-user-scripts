@@ -11,6 +11,7 @@
 当前版本无需LLAPI即可运行，**需要Scriptio 1.3.4+**
 
 _Help:当前版本展开语音消息是通过css参数，会导致收回按钮无效，急需大佬帮助😚_
+
 _Tip:临时收回可以先用右键手动再转换一次，就可以正常收回了_
 
 ## [Group-name-completion](./group-name-completion.js)
