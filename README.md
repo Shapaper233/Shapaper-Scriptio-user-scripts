@@ -2,7 +2,7 @@
 
 我的 [Scriptio](https://github.com/PRO-2684/Scriptio) 用户脚本。
 
-## [Automatic-text-to-voice-conversion.js](./automatic-text-to-voice-conversion.js.js)
+## [Automatic-text-to-voice-conversion.js](./automatic-text-to-voice-conversion.js)
 
 文字自动转语音！
 
